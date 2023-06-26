@@ -8,7 +8,7 @@ namespace Biblioteca.Models
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMySql("server=biblioteca-db-1;user=root;password=1234;database=Biblioteca",
+            optionsBuilder.UseMySql("Server=biblioteca;DataBase=Biblioteca;Uid=root;Password=1234",
                 new MySqlServerVersion(new Version(8, 0, 0))); 
 
             base.OnConfiguring(optionsBuilder);

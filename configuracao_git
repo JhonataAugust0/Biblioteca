@@ -1,0 +1,9 @@
+git init
+
+git add *
+
+git commit -m "Configuração inicial do projeto"
+
+git remote add origin https://github.com/JhonataAugust0/Biblioteca.git
+
+git push --set-upstream origin master
