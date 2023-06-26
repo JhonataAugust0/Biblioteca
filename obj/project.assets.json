@@ -715,11 +715,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jhonata/Documentos/técnico/UC07/Biblioteca_docker/Biblioteca.csproj",
+      "projectUniqueName": "/home/jhonata/Documentos/técnico/UC07/Biblioteca/Biblioteca.csproj",
       "projectName": "Biblioteca",
-      "projectPath": "/home/jhonata/Documentos/técnico/UC07/Biblioteca_docker/Biblioteca.csproj",
+      "projectPath": "/home/jhonata/Documentos/técnico/UC07/Biblioteca/Biblioteca.csproj",
       "packagesPath": "/home/jhonata/.nuget/packages/",
-      "outputPath": "/home/jhonata/Documentos/técnico/UC07/Biblioteca_docker/obj/",
+      "outputPath": "/home/jhonata/Documentos/técnico/UC07/Biblioteca/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/jhonata/.nuget/NuGet/NuGet.Config"

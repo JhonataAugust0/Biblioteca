@@ -71,3 +71,12 @@
 /home/jhonata/Documentos/técnico/UC07/Biblioteca_docker/obj/Debug/net6.0/ref/Biblioteca.dll
 /home/jhonata/Documentos/técnico/UC07/Biblioteca_docker/obj/Debug/net6.0/Biblioteca.pdb
 /home/jhonata/Documentos/técnico/UC07/Biblioteca_docker/obj/Debug/net6.0/Biblioteca.genruntimeconfig.cache
+/home/jhonata/Documentos/técnico/UC07/Biblioteca/bin/Debug/net6.0/Microsoft.Extensions.Caching.Abstractions.dll
+/home/jhonata/Documentos/técnico/UC07/Biblioteca/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/home/jhonata/Documentos/técnico/UC07/Biblioteca/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/jhonata/Documentos/técnico/UC07/Biblioteca/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/home/jhonata/Documentos/técnico/UC07/Biblioteca/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/jhonata/Documentos/técnico/UC07/Biblioteca/bin/Debug/net6.0/Microsoft.Extensions.Logging.dll
+/home/jhonata/Documentos/técnico/UC07/Biblioteca/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/jhonata/Documentos/técnico/UC07/Biblioteca/bin/Debug/net6.0/Microsoft.Extensions.Options.dll
+/home/jhonata/Documentos/técnico/UC07/Biblioteca/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll

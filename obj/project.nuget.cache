@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RtA4YjXPT9O+++UyI0Mk1J9wJ1IhM94hqyWEuwlDlsmJDsetDirtnbEj/8WvokABvQWe8XDm1peSpB+db+kZ+Q==",
+  "dgSpecHash": "waCkh3VAD4c7DJU/9Gmg6WD7IvgUNQKZosIUmiDSab9XuxMw1JdFDTaJ9828egrzIHVqY39kngbdd6oQyJoZHg==",
   "success": true,
-  "projectFilePath": "/home/jhonata/Documentos/técnico/UC07/Biblioteca_docker/Biblioteca.csproj",
+  "projectFilePath": "/home/jhonata/Documentos/técnico/UC07/Biblioteca/Biblioteca.csproj",
   "expectedPackageFiles": [
     "/home/jhonata/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/home/jhonata/.nuget/packages/microsoft.entityframeworkcore/7.0.2/microsoft.entityframeworkcore.7.0.2.nupkg.sha512",
