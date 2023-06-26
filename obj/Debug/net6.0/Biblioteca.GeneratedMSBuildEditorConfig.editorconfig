@@ -1,0 +1,76 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Biblioteca
+build_property.RootNamespace = Biblioteca
+build_property.ProjectDir = /home/jhonata/Documentos/técnico/UC07/Biblioteca/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/jhonata/Documentos/técnico/UC07/Biblioteca
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/Emprestimo/Cadastro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wcmVzdGltby9DYWRhc3Ryby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/Emprestimo/Edicao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wcmVzdGltby9FZGljYW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/Emprestimo/Listagem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wcmVzdGltby9MaXN0YWdlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/Livro/Cadastro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGl2cm8vQ2FkYXN0cm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/Livro/Edicao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGl2cm8vRWRpY2FvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/Livro/Listagem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGl2cm8vTGlzdGFnZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/Livro/_FormCadastro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGl2cm8vX0Zvcm1DYWRhc3Ryby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/Shared/_CookieConsentPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Db29raWVDb25zZW50UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
