@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RgoIimQzq4uwZGRVfpx5iyEDOH62Iv3lefrnXVs6BYk=",
+  "Hash": "U8+0x12WI8y1Pw1fXHN7w8dQ1tatS2ZmLgH0qRVsS2E=",
   "Source": "Biblioteca",
   "BasePath": "_content/Biblioteca",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/site.js"
+    },
+    {
+      "Identity": "/home/jhonata/Documentos/técnico/UC07/Biblioteca/wwwroot/lib/bootstrap/LICENSE",
+      "SourceId": "Biblioteca",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jhonata/Documentos/técnico/UC07/Biblioteca/wwwroot/",
+      "BasePath": "_content/Biblioteca",
+      "RelativePath": "lib/bootstrap/LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/LICENSE"
     },
     {
       "Identity": "/home/jhonata/Documentos/técnico/UC07/Biblioteca/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
@@ -408,12 +425,12 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Identity": "/home/jhonata/Documentos/técnico/UC07/Biblioteca/wwwroot/lib/bootstrap/LICENSE",
+      "Identity": "/home/jhonata/Documentos/técnico/UC07/Biblioteca/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "SourceId": "Biblioteca",
       "SourceType": "Discovered",
       "ContentRoot": "/home/jhonata/Documentos/técnico/UC07/Biblioteca/wwwroot/",
       "BasePath": "_content/Biblioteca",
-      "RelativePath": "lib/bootstrap/LICENSE",
+      "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -422,7 +439,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/LICENSE"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
       "Identity": "/home/jhonata/Documentos/técnico/UC07/Biblioteca/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
@@ -459,12 +476,12 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "/home/jhonata/Documentos/técnico/UC07/Biblioteca/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Identity": "/home/jhonata/Documentos/técnico/UC07/Biblioteca/wwwroot/lib/jquery-validation/LICENSE.md",
       "SourceId": "Biblioteca",
       "SourceType": "Discovered",
       "ContentRoot": "/home/jhonata/Documentos/técnico/UC07/Biblioteca/wwwroot/",
       "BasePath": "_content/Biblioteca",
-      "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -473,7 +490,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
     },
     {
       "Identity": "/home/jhonata/Documentos/técnico/UC07/Biblioteca/wwwroot/lib/jquery-validation/dist/additional-methods.js",
@@ -544,12 +561,12 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Identity": "/home/jhonata/Documentos/técnico/UC07/Biblioteca/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Identity": "/home/jhonata/Documentos/técnico/UC07/Biblioteca/wwwroot/lib/jquery/LICENSE.txt",
       "SourceId": "Biblioteca",
       "SourceType": "Discovered",
       "ContentRoot": "/home/jhonata/Documentos/técnico/UC07/Biblioteca/wwwroot/",
       "BasePath": "_content/Biblioteca",
-      "RelativePath": "lib/jquery-validation/LICENSE.md",
+      "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -558,7 +575,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
+      "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
     },
     {
       "Identity": "/home/jhonata/Documentos/técnico/UC07/Biblioteca/wwwroot/lib/jquery/dist/jquery.js",
@@ -610,23 +627,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
-    },
-    {
-      "Identity": "/home/jhonata/Documentos/técnico/UC07/Biblioteca/wwwroot/lib/jquery/LICENSE.txt",
-      "SourceId": "Biblioteca",
-      "SourceType": "Discovered",
-      "ContentRoot": "/home/jhonata/Documentos/técnico/UC07/Biblioteca/wwwroot/",
-      "BasePath": "_content/Biblioteca",
-      "RelativePath": "lib/jquery/LICENSE.txt",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
     }
   ]
 }

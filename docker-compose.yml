@@ -1,0 +1,30 @@
+version: '3.9'
+services:
+  db:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 1234
+      MYSQL_DATABASE: Biblioteca
+      MYSQL_PASSWORD: 1234
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+    networks:
+      - mysql-network
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    networks:
+      - mysql-network
+    ports:
+      - "8000:80"
+
+networks: 
+  mysql-network:
+
+volumes:
+  mysql-data:
+    driver: local
