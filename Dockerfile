@@ -10,6 +10,9 @@ RUN dotnet restore
 
 # Copia todos os arquivos e compila o projeto
 COPY . ./
+
+# COPY settings.json /
+
 RUN dotnet publish -c Release -o out
 
 # Define a imagem de tempo de execução

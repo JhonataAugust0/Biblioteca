@@ -46,9 +46,6 @@ namespace Biblioteca.Models
                     {
                         query = query.Where(e => e.Livro.Titulo.Contains(filtro.Filtro) || e.Livro.Autor.Contains(filtro.Filtro));
                     }
-                    // Adicione mais condições de filtro conforme necessário
-
-                    // Exemplo: query = query.Where(e => e.OutroCampo.Contains(filtro.Filtro));
                 }
 
                 return query.ToList();
