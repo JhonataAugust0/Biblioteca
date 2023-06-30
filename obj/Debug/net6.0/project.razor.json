@@ -18384,6 +18384,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/Livro copy/Listagem.cshtml",
+      "TargetPath": "Views\\Livro copy\\Listagem.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/Livro copy/Cadastro.cshtml",
+      "TargetPath": "Views\\Livro copy\\Cadastro.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/Livro/Edicao.cshtml",
       "TargetPath": "Views\\Livro\\Edicao.cshtml",
       "FileKind": "mvc"
@@ -18409,11 +18419,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/Usuario/Listagem.cshtml",
-      "TargetPath": "Views\\Usuario\\Listagem.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/Livro/Listagem.cshtml",
       "TargetPath": "Views\\Livro\\Listagem.cshtml",
       "FileKind": "mvc"
@@ -18429,13 +18434,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/Usuario/_FormCadastro.cshtml",
-      "TargetPath": "Views\\Usuario\\_FormCadastro.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/Usuario/Edicao.cshtml",
-      "TargetPath": "Views\\Usuario\\Edicao.cshtml",
+      "FilePath": "/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/Livro copy/_FormCadastro.cshtml",
+      "TargetPath": "Views\\Livro copy\\_FormCadastro.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18444,8 +18444,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/Usuario/Cadastro.cshtml",
-      "TargetPath": "Views\\Usuario\\Cadastro.cshtml",
+      "FilePath": "/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/Livro copy/Edicao.cshtml",
+      "TargetPath": "Views\\Livro copy\\Edicao.cshtml",
       "FileKind": "mvc"
     },
     {

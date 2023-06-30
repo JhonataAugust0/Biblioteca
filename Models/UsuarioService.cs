@@ -54,9 +54,7 @@ namespace Biblioteca.Controllers
         using (BibliotecaContext bc = new BibliotecaContext())
         {
             IQueryable<Usuario> query;
-            Console.WriteLine("Listagem de Usuários");
             query = bc.Usuarios;
-            Console.WriteLine(query.OrderBy(l => l.Nome).ToList());
             return query.OrderBy(l => l.Nome).ToList();
         }
     }

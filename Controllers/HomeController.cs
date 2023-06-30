@@ -40,9 +40,9 @@ namespace Biblioteca.Controllers
             Usuario usuario = UsuarioService.ObterUsuarioPorLogin(login);
             encripted_password = CalculateMD5Hash(senha);
 
-            if (usuario == null || usuario.Senha != senha)
+            if (usuario == null || usuario.Senha != encripted_password)
             {
-                ViewData["Erro"] = "Senha inválida";
+                ViewData["Erro"] = "Usuário ouSenha inválida";
                 return View();
             }
             else

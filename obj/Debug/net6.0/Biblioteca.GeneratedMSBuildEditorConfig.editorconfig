@@ -39,6 +39,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/Livro copy/Cadastro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGl2cm8gY29weS9DYWRhc3Ryby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/Livro copy/Edicao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGl2cm8gY29weS9FZGljYW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/Livro copy/Listagem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGl2cm8gY29weS9MaXN0YWdlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/Livro copy/_FormCadastro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGl2cm8gY29weS9fRm9ybUNhZGFzdHJvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/Livro/Cadastro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGl2cm8vQ2FkYXN0cm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -65,22 +81,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/Usuario/Cadastro.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpby9DYWRhc3Ryby5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/Usuario/Edicao.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpby9FZGljYW8uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/Usuario/Listagem.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpby9MaXN0YWdlbS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/Usuario/_FormCadastro.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpby9fRm9ybUNhZGFzdHJvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/jhonata/Documentos/técnico/UC07/Biblioteca/Views/_ViewImports.cshtml]
