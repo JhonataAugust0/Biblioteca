@@ -1,0 +1,20 @@
+# Arquivos e pastas gerados pelo Visual Studio
+.vs
+/bin
+/obj
+/.local
+/.tools
+
+# Arquivos de build do .NET
+*.dll
+*.exe
+*.log
+*.so
+*.dylib
+*.pdb
+
+# Outros arquivos e pastas desnecessários
+.dockerignore
+.git
+.gitignore
+README.md
