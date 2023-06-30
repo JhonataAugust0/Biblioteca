@@ -53,7 +53,11 @@ namespace Biblioteca.Controllers
     {
         using (BibliotecaContext bc = new BibliotecaContext())
         {
-            return bc.Usuarios.ToList();
+            IQueryable<Usuario> query;
+            Console.WriteLine("Listagem de Usuários");
+            query = bc.Usuarios;
+            Console.WriteLine(query.OrderBy(l => l.Nome).ToList());
+            return query.OrderBy(l => l.Nome).ToList();
         }
     }
 
@@ -63,6 +67,26 @@ namespace Biblioteca.Controllers
       {
         return bc.Usuarios.Find(id);
       }
+    }
+
+    public static Usuario ObterUsuarioPorLogin(string login)
+    {
+        using (BibliotecaContext bc = new BibliotecaContext())
+        {
+            return bc.Usuarios.FirstOrDefault(u => u.Nome == login);
+        }
+    }
+    public void Deletar(int id)
+    {
+        using (BibliotecaContext bc = new BibliotecaContext())
+        {
+            Usuario usuario = bc.Usuarios.Find(id);
+            if (usuario != null)
+            {
+                bc.Usuarios.Remove(usuario);
+                bc.SaveChanges();
+            }
+        }
     }
   }
 

@@ -16,7 +16,7 @@ namespace Biblioteca.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController( ILogger<HomeController> logger )
         {
             _logger = logger;
         }
@@ -34,22 +34,25 @@ namespace Biblioteca.Controllers
 
         [HttpPost]
         public IActionResult Login(string login, string senha)
-        {   
-            Console.WriteLine("Login: " + login);
-            Console.WriteLine("Senha: " + senha);
-            if(login != "admin" || senha != "123")
+        {
+            string encripted_password;
+
+            Usuario usuario = UsuarioService.ObterUsuarioPorLogin(login);
+            encripted_password = CalculateMD5Hash(senha);
+
+            if (usuario == null || usuario.Senha != senha)
             {
                 ViewData["Erro"] = "Senha inválida";
                 return View();
             }
             else
             {
-                HttpContext.Session.SetString("user", "admin");
+                HttpContext.Session.SetString("user", login);
                 return RedirectToAction("Index");
             }
-        }  
+        }
 
-        private string CalculateMD5Hash(string input)
+        private string CalculateMD5Hash( string input )
         {
             // Cria uma instância do objeto MD5
             using (var md5 = System.Security.Cryptography.MD5.Create())
@@ -68,7 +71,6 @@ namespace Biblioteca.Controllers
                 }
 
                 // Retorna a string hexadecimal resultante
-                Console.WriteLine(sb.ToString());
                 return sb.ToString();
             }
         }

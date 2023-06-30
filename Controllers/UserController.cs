@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using Biblioteca.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -25,15 +27,18 @@ namespace Biblioteca.Controllers
                 UsuarioService.Atualizar(l);
             }
 
-            return RedirectToAction("Listagem");
+            return RedirectToAction("ListagemUsuario");
         }
 
-        // public IActionResult Listagem(string tipoFiltro, string filtro)
-        // {
-        //     Autenticacao.CheckLogin(this);
-        //     UsuarioService UsuarioService = new UsuarioService();
-        //     return View(UsuarioService.ListarTodos());
-        // }
+        public IActionResult Listagem()
+        {
+            Console.WriteLine("Listagem de Usuários");
+            Autenticacao.CheckLogin(this);
+            UsuarioService usuarioService = new UsuarioService();
+            ICollection<Usuario> usuarios = usuarioService.ListarTodos();
+            Console.WriteLine(usuarios);
+            return View(usuarios);
+        }
 
         public IActionResult Edicao(int id)
         {
@@ -41,6 +46,14 @@ namespace Biblioteca.Controllers
             UsuarioService ls = new UsuarioService();
             Usuario l = ls.ObterPorId(id);
             return View(l);
+        }
+
+        public IActionResult Deletar(int id)
+        {
+            Autenticacao.CheckLogin(this);
+            UsuarioService ls = new UsuarioService();
+            ls.Deletar(id);
+            return RedirectToAction("Index");
         }
     }
 }
