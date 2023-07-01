@@ -396,6 +396,15 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "X.PagedList.Mvc/8.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/net48/X.PagedList.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/net48/X.PagedList.Mvc.dll": {}
+        }
       }
     }
   },
@@ -1043,13 +1052,26 @@
         "system.security.cryptography.xml.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "X.PagedList.Mvc/8.0.7": {
+      "sha512": "Svb2MC/Cy5Q6z2Kj7e6hpWJJOs/R0o12oojyxXDsPat7YnrdYU3Tfs5ntk6SLbDLZNH0flPwNFQ1N+l5tQU/eg==",
+      "type": "package",
+      "path": "x.pagedlist.mvc/8.0.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net48/X.PagedList.Mvc.dll",
+        "x.pagedlist.mvc.8.0.7.nupkg.sha512",
+        "x.pagedlist.mvc.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.AspNetCore.DataProtection >= 6.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.0",
-      "Pomelo.EntityFrameworkCore.MySql >= 6.0.0"
+      "Pomelo.EntityFrameworkCore.MySql >= 6.0.0",
+      "X.PagedList.Mvc >= 8.0.7"
     ]
   },
   "packageFolders": {
@@ -1100,6 +1122,10 @@
           "Pomelo.EntityFrameworkCore.MySql": {
             "target": "Package",
             "version": "[6.0.0, )"
+          },
+          "X.PagedList.Mvc": {
+            "target": "Package",
+            "version": "[8.0.7, )"
           }
         },
         "imports": [
@@ -1129,5 +1155,17 @@
         "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.119/RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'X.PagedList.Mvc 8.0.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "X.PagedList.Mvc",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

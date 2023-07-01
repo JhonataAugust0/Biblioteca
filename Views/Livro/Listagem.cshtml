@@ -1,53 +1,88 @@
-@model List<Livro>
+@model PaginacaoViewModel<Livro>
+
 @{
     ViewData["Title"] = "Listagem de Livros";
 }
+
 <div class="row">
     <div class="col-md-12">
-    <form class="form-inline" action="Listagem" method="POST">
-        <div class="form-group mb-2">
-            <select name="TipoFiltro" class="form-control">
-                <option value="Autor">Autor</option>
-                <option value="Titulo">Título</option>
-            </select>
-        </div>
-        <div class="form-group mb-2 mx-sm-3">
-            <input type="text" placeholder="Filtro" name="Filtro" class="form-control" />
-        </div>
-        <button type="submit" class="btn btn-primary mb-2">Pesquisar</button>
-    </form>
+        <form class="form-inline" action="Listagem" method="POST">
+            <div class="form-group mb-2">
+                <select name="TipoFiltro" class="form-control">
+                    <option value="Autor">Autor</option>
+                    <option value="Titulo">Título</option>
+                </select>
+            </div>
+            <div class="form-group mb-2 mx-sm-3">
+                <input type="text" placeholder="Filtro" name="Filtro" class="form-control" />
+            </div>
+            <button type="submit" class="btn btn-primary mb-2">Pesquisar</button>
+        </form>
     </div>
 </div>
 
 <div class="row">
     <div class="col-md-12">
-        @if (Model.Count == 0)
+        @if (Model.Itens.Count == 0)
         {
             <p>Nenhum registro encontrado.</p>
         }
-        else {
+        else
+        {
             <table class="table table-striped">
                 <thead>
-                    <tr><th>Id</th>
-                    <th>Titulo</th>
-                    <th>Autor</th>
-                    <th>Ano de publicação</th>
-                    <th></th>
+                    <tr>
+                        <th>Id</th>
+                        <th>Titulo</th>
+                        <th>Autor</th>
+                        <th>Ano de publicação</th>
+                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach(Livro l in Model)
+                    @foreach (Livro l in Model.Itens)
                     {
-                    <tr>
-                        <td>@l.Id</td>
-                        <td>@l.Titulo</td>
-                        <td>@l.Autor</td>
-                        <td>@l.Ano</td>
-                        <td><a href="/Livro/Edicao/@l.Id">Editar</a></td>
-                    </tr>
+                        <tr>
+                            <td>@l.Id</td>
+                            <td>@l.Titulo</td>
+                            <td>@l.Autor</td>
+                            <td>@l.Ano</td>
+                            <td><a href="/Livro/Edicao/@l.Id">Editar</a></td>
+                        </tr>
                     }
                 </tbody>
             </table>
+
+            <nav>
+                <ul class="pagination">
+                    @if (Model.PaginaAtual > 1)
+                    {
+                        <li class="page-item">
+                            <a class="page-link" href="/Livro/Listagem?pagina=1">Primeira</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="/Livro/Listagem?pagina=@(Model.PaginaAtual - 1)">Anterior</a>
+                        </li>
+                    }
+
+                    @for (int i = 1; i <= Model.TotalPaginas; i++)
+                    {
+                        <li class="page-item @(i == Model.PaginaAtual ? "active" : "")">
+                            <a class="page-link" href="/Livro/Listagem?pagina=@i">@i</a>
+                        </li>
+                    }
+
+                    @if (Model.PaginaAtual < Model.TotalPaginas)
+                    {
+                        <li class="page-item">
+                            <a class="page-link" href="/Livro/Listagem?pagina=@(Model.PaginaAtual + 1)">Próxima</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="/Livro/Listagem?pagina=@Model.TotalPaginas">Última</a>
+                        </li>
+                    }
+                </ul>
+            </nav>
         }
     </div>
 </div>
